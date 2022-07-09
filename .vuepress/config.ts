@@ -41,7 +41,7 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     logo: "logo.png",
-    repo: "https://github.com/731016/study-notes",
+    repo: "https://github.com/731016/study-notes-vuePress",
     sidebar,
     navbar,
     editLink: false,

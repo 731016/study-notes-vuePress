@@ -1,18 +1,23 @@
 {
-  "name": "code-xingqiu",
-  "version": "2.0.0",
-  "description": "编程导航知识星球",
+  "name": "study-notes-vuepress",
+  "version": "1.0.0",
+  "description": "计算机知识杂货铺",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build ."
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.37",
     "@vuepress/plugin-search": "^2.0.0-beta.48",
+    "less-loader": "^5.0.0",
     "vuepress": "^2.0.0-beta.48",
     "vuepress-plugin-china-search-console": "^2.1.1",
     "vuepress-plugin-clipboard": "^2.1.1",
     "vuepress-plugin-seo2": "^2.0.0-beta.83",
     "vuepress-plugin-sitemap2": "^2.0.0-beta.84"
+  },
+  "dependencies": {
+    "vue": "^3.2.36"
   }
 }
